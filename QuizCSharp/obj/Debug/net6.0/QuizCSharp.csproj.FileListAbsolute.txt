@@ -1,0 +1,15 @@
+D:\C#_PROJECTS\QuizCSharp\QuizCSharp\obj\Debug\net6.0\QuizCSharp.csproj.AssemblyReference.cache
+D:\C#_PROJECTS\QuizCSharp\QuizCSharp\obj\Debug\net6.0\QuizCSharp.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#_PROJECTS\QuizCSharp\QuizCSharp\obj\Debug\net6.0\QuizCSharp.AssemblyInfoInputs.cache
+D:\C#_PROJECTS\QuizCSharp\QuizCSharp\obj\Debug\net6.0\QuizCSharp.AssemblyInfo.cs
+D:\C#_PROJECTS\QuizCSharp\QuizCSharp\obj\Debug\net6.0\QuizCSharp.csproj.CoreCompileInputs.cache
+D:\C#_PROJECTS\QuizCSharp\QuizCSharp\bin\Debug\net6.0\QuizCSharp.exe
+D:\C#_PROJECTS\QuizCSharp\QuizCSharp\bin\Debug\net6.0\QuizCSharp.deps.json
+D:\C#_PROJECTS\QuizCSharp\QuizCSharp\bin\Debug\net6.0\QuizCSharp.runtimeconfig.json
+D:\C#_PROJECTS\QuizCSharp\QuizCSharp\bin\Debug\net6.0\QuizCSharp.dll
+D:\C#_PROJECTS\QuizCSharp\QuizCSharp\bin\Debug\net6.0\QuizCSharp.pdb
+D:\C#_PROJECTS\QuizCSharp\QuizCSharp\obj\Debug\net6.0\QuizCSharp.dll
+D:\C#_PROJECTS\QuizCSharp\QuizCSharp\obj\Debug\net6.0\refint\QuizCSharp.dll
+D:\C#_PROJECTS\QuizCSharp\QuizCSharp\obj\Debug\net6.0\QuizCSharp.pdb
+D:\C#_PROJECTS\QuizCSharp\QuizCSharp\obj\Debug\net6.0\QuizCSharp.genruntimeconfig.cache
+D:\C#_PROJECTS\QuizCSharp\QuizCSharp\obj\Debug\net6.0\ref\QuizCSharp.dll

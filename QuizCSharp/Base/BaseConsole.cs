@@ -17,7 +17,15 @@ namespace QuizCSharp.Base
             //Quiz.Number5.Run();
             //Quiz.Number6.Run();
             //Quiz.Number7.Run();
-            Quiz.Number8.Run();
+            //Quiz.Number8.Run();
+
+            //Quiz.Number9.Run();
+
+            //Quiz.Number9Cheating.Run();
+
+            //Quiz.Number10.Run();
+            //Quiz.Number11.Run();
+            //Quiz.Number12.Run();
         }
     }
 }

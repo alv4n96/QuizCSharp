@@ -4,19 +4,12 @@
     {
         public static void Run()
         {
-        Number8:
+            int getSaturday = (int)DayOfWeek.Saturday;
+            int getToday = (int)DateTime.Today.DayOfWeek;
+            int res = (getSaturday - getToday + 7) % 7;
 
-            Console.Write("Masukkan tanggal FORMAT[yyyy/mm/dd] : ");
-            try
-            {
-                var data = Console.ReadLine();
-                DateTime dataDate = DateTime.Parse(data, "dd/MM/yyyy");
-
-            }
-            catch (Exception ex) 
-            {
-                Console.Write(ex.Message);
-            }
+            Console.WriteLine($"Hari Sabtu: {DateTime.Today.AddDays(res).ToShortDateString()}");
+            Console.WriteLine($"{res} hari lagi!");
         }
     }
 }

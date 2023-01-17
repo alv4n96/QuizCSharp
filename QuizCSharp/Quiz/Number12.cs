@@ -4,6 +4,7 @@
     {
         public static void Run()
         {
+            Console.WriteLine("====================================================");
             for (int i = 1; i <= 5; i++)
             {
                 for (int j = 10; j >= 5 + i; j--)
@@ -43,21 +44,26 @@
 
 
             Console.WriteLine("====================================================");
-            for (int i = 1; i <= 5; i++)
+            int spaces = 4;
+            int number = 0;
+
+            for (int row = 1; row <= 5; row++)
             {
-                for (int j = 1; j <= 5 - i; j++)
+                number = row;
+                for (int col = 1; col <= 9; col++)
                 {
-                    Console.Write("  ");
+                    if (col <= spaces || col > 9 - spaces) 
+                        Console.Write("  ");
+                    else
+                    {
+                        Console.Write(number + " ");
+                        if (col >= 5) number--;
+                        else number++;
+                    }
                 }
-                for (int j = i; j >= 1; j--)
-                {
-                    Console.Write(j + " ");
-                }
-                for (int j = 2; j <= i; j++)
-                {
-                    Console.Write(j + " ");
-                }
+                spaces--;
                 Console.WriteLine();
+                Console.WriteLine("====================================================");
             }
         }
     }

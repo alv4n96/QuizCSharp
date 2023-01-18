@@ -4,21 +4,18 @@
     {
         public static void Run()
         {
+
             Console.Write("{} \t | ");
-            Console.Write(KurawalChecker("{}"));
-            Console.WriteLine();
+            Console.Write(KurawalChecker("{}") + "\n");
             Console.Write("{{}} \t | ");
-            Console.Write(KurawalChecker("{{}}"));
-            Console.WriteLine();
+            Console.Write(KurawalChecker("{{}}") + "\n");
             Console.Write("{}} \t | ");
-            Console.Write(KurawalChecker("{}}"));
-            Console.WriteLine();
+            Console.Write(KurawalChecker("{}}") + "\n");
             Console.Write("{{{}}} \t | ");
-            Console.Write(KurawalChecker("{{{}}}"));
-            Console.WriteLine();
+            Console.Write(KurawalChecker("{{{}}}") + "\n");
         }
 
-        public static bool KurawalChecker(string input)
+        static bool KurawalChecker(string input)
         {
             int count = 0;
             foreach (var item in input)

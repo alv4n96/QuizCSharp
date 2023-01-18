@@ -2,3 +2,5 @@
 using QuizCSharp.Base;
 
 BaseConsole.BaseRun();
+
+
